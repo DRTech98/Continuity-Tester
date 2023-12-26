@@ -11,3 +11,7 @@ The switch used is a single pole double throw (SPDT), which means that either po
 This circuit requires an understanding of both diodes and npn transistors, two components that are used extensively in electronics, and is a good exercise as to the importance of return paths and using a transistor as a switching device. 
 
 The PCB is a 2 layer board with components taken directly from the breadboard prototype and the whole project only took a few hours, as it is very simple and straightforward to understand.
+
+Update (12/26/23): Version 1 of the project had several issues, primarily with the routing in regards to R1, R2, and the capacitor. Due to R1s inscorrect placement, 9V was being feed directly into the base pin of the optocoupler (pin 6), causing the IC to overheat and for the tester to only work for the first initial switches. 
+
+I redid the schematic on the breadboard, and followed each wire piece by piece when making the PCB, version 3 just got ordered, and version 2 had a similar issue with R1 and incorrect routing. A video will be posted showing the working PCB and size comparison and routing differences between the three versions.
